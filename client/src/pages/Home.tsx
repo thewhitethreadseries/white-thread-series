@@ -12,7 +12,7 @@ const LINKS = {
   bookCover: "#book-cover-image",
   xalArt: "#xal-character-art",
   kianArt: "#kian-character-art",
-  authorPhoto: "/manus-storage/pahadina-author-upper-half_4d1e01b6.png",
+  authorPhoto: "/pahadina-author.jpg",
 };
 
 function Placeholder({ label, className = "" }: { label: string; className?: string }) {

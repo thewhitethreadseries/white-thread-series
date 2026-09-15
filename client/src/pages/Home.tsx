@@ -65,7 +65,13 @@ export default function Home() {
     <section id="the-book" className="book-section section-pad"><div className="container">
       <div className="section-kicker"><span>Book 1</span><span>Till the Day We Can (A Death. A Thread. A Pledge)</span></div>
       <div className="book-intro-grid">
-        <div className="book-cover-column reveal reveal-one"><Placeholder label="FRONT COVER" className="book-cover-placeholder" /><div className="cover-caption"><span>Front cover image</span><span>Book 1</span></div></div>
+        <div className="book-cover-column reveal reveal-one">
+  <img
+  src="/book-cover.jpg"
+  alt="Front cover of Till the Day We Can"
+  className="book-cover-placeholder book-cover-image"
+/>
+ <div className="cover-caption"><span>Front cover image</span><span>Book 1</span></div></div>
         <div className="book-copy reveal reveal-two"><p className="eyebrow mint">The White Thread Series - Book 1</p><h3>Till the Day We Can<br /><i>(A Death. A Thread. A Pledge)</i></h3><Countdown /><div className="release-line"><span>Launching</span><strong>November 13th 2026</strong></div><p className="seo-sentence">An Urban Fantasy where a former bodyguard learns that the entity responsible for his sister’s death is still out there, spreading a deadly spirit illness, and ends up becoming the reluctant protector of a self-proclaimed last healer, the only person who can help him to hunt it.</p><div className="book-actions"><ActionLink href={LINKS.arc} filled>Join the ARC reader list</ActionLink><ActionLink href={LINKS.amazonEbook}>Pre order/ Purchase ebook · Amazon</ActionLink><ActionLink href={LINKS.amazonPaperback}>Pre Order/ Purchase paperback · Amazon</ActionLink><ActionLink href={LINKS.signedPaperback}>Pre-order paperback with signature</ActionLink></div><p className="placeholder-hint">Purchase links will be attached here when live.</p></div>
       </div>
     </div></section>

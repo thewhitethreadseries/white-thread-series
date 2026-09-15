@@ -67,7 +67,7 @@ export default function Home() {
       <div className="book-intro-grid">
         <div className="book-cover-column reveal reveal-one">
   <img
-  src="/book-cover.jpg"
+  src="/book-cover.png"
   alt="Front cover of Till the Day We Can"
   className="book-cover-placeholder book-cover-image"
 />

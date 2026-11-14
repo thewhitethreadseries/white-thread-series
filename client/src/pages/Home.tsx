@@ -26,7 +26,7 @@ export default function Home() {
   return <main className="site-shell">
     <nav className="topbar container" aria-label="Primary navigation">
       <a className="brand-lockup" href="#top" aria-label="The White Thread Series home"><span className="brand-wordmark">The White Thread <em>Series</em></span></a>
-      <div className="nav-links"><a href="#the-book">The book</a><a href="#characters">Characters</a><a href="#author">Author</a><a className="nav-arc" href={LINKS.preOrder} target="_blank" rel="noreferrer">Pre-Order Sign-Up <ArrowUpRight size={14} /></a></div>
+      <div className="nav-links">   <a href="#the-book">The book</a>   <a href="#characters">Characters</a>   <a href="#author">Author</a>   <a className="nav-ebook" href={LINKS.amazonEbook} target="_blank" rel="noreferrer">     Purchase eBook <ArrowUpRight size={14} />   </a>   <a className="nav-arc" href={LINKS.preOrder} target="_blank" rel="noreferrer">     Pre-Order Sign-Up <ArrowUpRight size={14} />   </a> </div>
     </nav>
 
     <section id="top" className="hero-section">
